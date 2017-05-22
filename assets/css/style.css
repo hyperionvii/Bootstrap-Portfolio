@@ -6,7 +6,11 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
     overflow: auto;
+    min-height:100%; 
+    position:relative; 
+    padding-bottom:[footer-height];
 }
+
 
 
     
@@ -36,6 +40,7 @@ li.active {
 
 	padding-right: 250px;
 }
+
 
 
 /*about section*/
@@ -104,7 +109,7 @@ h3#aside {
 
 
 
-div#mediaimgs {
+div#mediaimgs.col-lg-12 {
 
 	display: block;
 	margin: auto;
@@ -121,19 +126,24 @@ p#p1, p#p2 {
 
 /*footer*/
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #f8f8f8;
-    box-sizing: border-box;
-    display: block;
-}
-
 p.text-muted {
 	text-align: center;
 	margin-top: 24px;
+}
+
+div#colorband {
+	height: 30px;
+	color: #55bbf4;
+}
+
+footer { 
+    position: absolute; 
+    left: 0 ; 
+    right: 0; 
+    bottom: 0; 
+    height: 60px; 
+    background-color: #f8f8f8;
+    border-top: 10px solid #55bbf4;
 }
 
 
@@ -144,4 +154,18 @@ h3.inputform {
 	color: gray;
 	font-weight: normal;
 	font-size: 20px;
+}
+
+#row-about {
+
+	background-color: #f8f8f8;
+
+
+}
+
+/*Portfolio*/
+
+img#portfolioimg {
+	width: 200px;
+	height: 200px;
 }
