@@ -75,7 +75,16 @@ h2#aboutmetag {
 
 p#p1, p#p2 {
 	line-height: 25px;
-	font-size: 60px;
+	font-size: 28px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
 
@@ -140,7 +149,7 @@ div#colorband {
 }
 
 footer { 
-    position: absolute; 
+    position: fixed; 
     left: 0 ; 
     right: 0; 
     bottom: 0; 
