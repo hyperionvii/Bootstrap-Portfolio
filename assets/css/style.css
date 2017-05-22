@@ -4,8 +4,12 @@ body {
 	background-image: url("../images/swirl_pattern.png");
 	background-repeat: repeat-x repeat-y;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    overflow: scroll;
+    width: 100%;
+    overflow: auto;
 }
+
+
+    
 
 h1,h2,h3 {
 	font-family: 'Georgia';
@@ -41,6 +45,7 @@ section.about {
 	box-sizing: border-box;
 	background-color: #f8f8f8;
 	margin-top: 50px;
+	margin-bottom: 50px;
 	padding: 25px 35px 25px 35px;
 	border: thin solid lightgray;
 	border-radius: 5px;
@@ -81,7 +86,9 @@ div#asideid {
 	padding: 25px 10px 10px 10px;
 	height: 200px;
 	margin-top: 50px;
+	margin-bottom: 559px;
 	border-radius: 5px;
+
 }
 
 h3#aside {
@@ -120,6 +127,8 @@ footer {
     width: 100%;
     height: 60px;
     background-color: #f8f8f8;
+    box-sizing: border-box;
+    display: block;
 }
 
 p.text-muted {
